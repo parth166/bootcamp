@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1 ASSIGNMENT - 3
+  form(action='/books/add', method='post')
+    p Id :
+    input(type = 'text', name = 'book Id:')
+    br
+    p Name:
+    input(type = 'text', name = 'book Name:')
+    br
+    p Name:
+    input(type = 'text', name = 'Author:')
+    br 
+    br
+    input(type='submit')

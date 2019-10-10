@@ -588,29 +588,32 @@
 
 // (function(){console.log(this);})();
 
-function fun3() {
-  console.log('hi');
-  return 2;
-}
+// function fun3() {
+//   console.log('hi');
+//   return 2;
+// }
 
-async function fun2() {
-  try {
-    const ans = await fun3();
-    return ans;
-  }
-  catch(err) {
+// async function fun2() {
+//   try {
+//     const ans = await fun3();
+//     return ans;
+//   }
+//   catch(err) {
 
-  }
-}
+//   }
+// }
 
-async function fun1() {
-  try {
-    const ans = await fun2();
-    console.log(ans);
-  }
-  catch(err) {
+// async function fun1() {
+//   try {
+//     const ans = await fun2();
+//     console.log(ans);
+//   }
+//   catch(err) {
 
-  }
-}
+//   }
+// }
 
-fun1();
+// fun1();
+
+var path = require('path');
+console.log(path);
